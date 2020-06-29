@@ -6,7 +6,8 @@ namespace microwave
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Menu menu = new Menu();
+            menu.Display();
         }
     }
 }
